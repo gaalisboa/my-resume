@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portifolio Gabiru</title>
+  <script src="https://unpkg.com/feather-icons"></script> <!--Import de ícones-->
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <div class="container"> <!--container principal de layout para definir os grids-->
+    <div class="profile"> <!--container do perfil-->
+      <div class="profile_container">
+        <div>
+          <h1 class="profile_name"> Gabriel de Paula </h1>
+          <p class="profile_title">Desenvolvedor de Software</p>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="menus">
+      <nav class="navbar">
+        <ul class="navitems">
+          <li class="navitem"><a href="#aboutme">Sobre mim</a></li>
+          <li class="navitem"><a href="#education">Formação</a></li>
+          <li class="navitem"><a target="_blank" href="https://github.com/gaalisboa?tab=repositories">Portfolio</a></li>
+          <li class="navitem"><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="aboutme" id="aboutme"> <!--seção de Sobre Mim-->
+      <h3 class="title">Sobre mim</h3>
+      <div class="aboutme-text">
+        <p class="description">
+          Brasileiro, nascido em 2003. Formando em Análise e Desenvolvimento de Sistemas na Universidade Internacional UNINTER. <br>
+          Apaixonado por tecnologia e sempre curioso quando o assunto é sobre computação e programação. <br>
+          Estudando por conta própria desde 2019 com cursos e bootcamps gratuitos na internet. <br>
+          Áreas que mais me fascinam são as de games, cyber security e web (mais especificamente utilizando C# e JavaScript).
+        </p>
+      </div>
+      <div class="interest">
+        <h3 class="title">Interesses / Hobbies</h3>
+        <div class="interest_items">
+          <div class="interest_item">
+            <i data-feather="music"></i>
+            <span>Música</span>
+          </div>
+          <div class="interest_item">
+            <i data-feather="monitor"></i>
+            <span>Jogar</span>
+          </div>
+          <div class="interest_item">
+            <i data-feather="key"></i>
+            <span>Enigmas</span>
+          </div>
+          <div class="interest_item">
+            <i data-feather="map"></i>
+            <span>Viajar</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="group-1"> <!--primeira coluna do grid-->
+      <div class="education" id="education">
+        <h3 class="title">Educação / Formação</h3>
+        <div class="education_item">
+          <p class="item_preTitle">01/2023 - 01/2025</p>
+          <h4 class="item_title">CST ANÁLISE E DESENVOLVIMENTO DE SISTEMAS</h4>
+          <p class="item_subtitle">
+            Uninter
+          </p>
+        </div>
+      </div>
+
+      <div class="skills">
+        <h3 class="title">Habilidades / Tecnologias</h3>
+        <ul class="skills_list description">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>C# (Unity e .NET)</li>
+          <li>Banco de Dados SQL e NOSQL</li>
+        </ul>
+      </div>
+
+      
+    </div>
+    <div class="group-2"> <!--segunda coluna do grid-->
+      <div class="languages">
+        <h3 class="title">Idiomas</h3>
+        <ul class="languages-items">
+          <li class="description">Português (Nativo)</li>
+          <li class="description">Inglês (Intermediário)</li>
+        </ul>
+      </div>
+
+      <div class="exp">
+        <h3 class="title">Experiência Profissional</h3>
+        <div class="exp_item">
+          <p class="item_preTitle">05/2023 - atual</p>
+          <h4 class="item_title">Missim LTDA</h4>
+          <p class="item_subtitle">Analista de Desenvolvimento Junior</p>
+          <p class=" description">
+            Desenvolvimento de software com game engine Unity / C#. Criação de código, interface de usuário (UI), uso de git (Github). Aprimorar experiência de usuário (UX) e integração de autenticação com plataformas de terceiros (Unity Gaming Services e Firebase)
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="contact-container" id="contact">
+      <form action="" class="contact-form">
+          <table>
+              <thead>
+                  <tr>
+                      <th colspan="2"><h3 class="title">Contate me</h3></th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td class="contact-label">
+                          <label for="name" class="contact-label">Nome: </label>
+                      </td>
+                      <td>
+                          <input type="text" name="name" id="name" placeholder="Seu Nome...">
+                      </td>
+                  </tr>
+                  <tr>
+                      <td class="contact-label">
+                          <label for="email" class="contact-label">Email: </label>
+                      </td>
+                      <td>
+                          <input type="email" name="email" id="email" value="SeuEmail@gmail.com">
+                      </td>
+                  </tr>
+                  <tr>
+                      <td class="contact-label">
+                          <label for="message" class="contact-label">Mensagem: </label>
+                      </td>
+                      <td>
+                          <textarea name="message" id="message" cols="30" rows="5"></textarea>
+                      </td>
+                  </tr>
+              </tbody>
+          </table>
+          <button type="submit" class="contact-submitBtn">Enviar</button>
+      </form>
+    </div>
+    <hr>
+    <div class="group-3"> <!--rodapé-->
+      <div class="contact">
+        <h3 class="title">Contatos</h3>
+        <div class="contact_info">
+          <p class="description">
+            Brasil, São Paulo
+          </p>
+          <p class="description">
+            +55 (12)98808-9376
+          </p>
+          <p class="description">
+            gaahlisboa@gmail.com
+          </p>
+        </div>
+      </div>
+      <div class="social">
+        <h3 class="title">Socials</h3>
+        <div class="social_items">
+          <a href="https://www.linkedin.com/in/gabrieldpsdev/" target="_blank" class="social_item">
+            <i data-feather="linkedin"></i>
+            <span>gabrieldpsdev</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    feather.replace()
+  </script>
+</body>
+
+</html>
